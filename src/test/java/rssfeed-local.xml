@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>Teste do RSSFeedParser</title>
+<link>http://github.com/hwinckler</link>
+<pubDate>Sat, 07 Mar 2015 19:00:00 -0300</pubDate>
+<item>
+  <title>Item 2</title>
+  <link>http://item2.ccom</link>
+  <guid>2</guid>
+  <pubDate>Tue, 07 Mar 2015 18:19:01 -0300</pubDate>
+  <author>hwinckler</author>
+</item>
+<item>
+  <title>Item 1</title>
+  <link>http://item1.ccom</link>
+  <guid>1</guid>
+  <pubDate>Tue, 03 Mar 2015 15:27:53 -0300</pubDate>
+  <author>hwinckler</author>
+</item>
+</channel>
+</rss>

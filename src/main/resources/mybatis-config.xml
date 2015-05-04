@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<environments default="development">
+		<environment id="production">
+			<transactionManager type="JDBC" />
+            <!--  connecting to Cloud SQL -->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.GoogleDriver"/>
+                <property name="url" value="jdbc:google:mysql://driven-striker-89000:mybatis-instance/db1?user=root"/>
+            </dataSource>
+		</environment>	
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver"/>
+				<property name="url" value="jdbc:mysql://localhost:3306/rssfeed-leitor-db"/>
+				<property name="username" value="root"/>
+				<property name="password" value="root"/>
+			</dataSource>
+		</environment>
+		<environment id="test">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver"/>
+				<property name="url" value="jdbc:mysql://localhost:3306/rssfeed-leitor-db-test"/>
+				<property name="username" value="root"/>
+				<property name="password" value="root"/>
+			</dataSource>
+		</environment>		
+	</environments>
+	<mappers>
+		<mapper class="br.com.wickrss.category.mapper.CategoryMapper" />
+		<mapper class="br.com.wickrss.channel.mapper.ChannelMapper" />
+		<mapper class="br.com.wickrss.feed.mapper.FeedMapper" />
+		<mapper class="br.com.wickrss.user.mapper.UserMapper" />
+	</mappers>
+</configuration>

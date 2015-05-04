@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <user id="1" email="user1@user.com" date="2015-04-20 20:00:30.0" />
+  <category id="1" user_id="1" title="Default" date="2015-04-20 20:00:30.0" />
+  <category id="2" user_id="1" title="Outros" date="2015-04-20 20:00:30.0" />
+  <channel id="1" category_id="1" user_id="1"  title="channel1" link="http://channel1.com" lastSynchronize="2015-03-15 20:25:06.0" synchronize="true"/>
+  <channel id="2" category_id="2" user_id="1"  title="channel2" link="http://channel2.com" lastSynchronize="2015-03-15 20:25:06.0" synchronize="true"/>
+  <feed id="1" channel_id="1" user_id="1" title="feed1" description="feed1 description" link="http://channel1.com" pubDate="2015-03-11 20:00:00.0" visualized="false" />
+  <feed id="2" channel_id="1" user_id="1" title="feed2" description="feed2 description" link="http://channel2.com" pubDate="2015-03-12 14:00:00.0" visualized="true" />
+  <feed id="3" channel_id="1" user_id="1" title="feed3" description="feed3 description" link="http://channel2.com" pubDate="2015-03-13 13:00:00.0" visualized="false" />
+  <feed id="4" channel_id="2" user_id="1" title="feed3" description="feed3 description" link="http://channel2.com" pubDate="2015-03-14 21:00:00.0" visualized="false" />
+</dataset>

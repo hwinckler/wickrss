@@ -1,7 +1,38 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>hello</display-name>
 
-<web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <context-param>
+    <param-name>CLIENT_ID</param-name>
+    <param-value>597828153578-o7c3r47bek2mb5aktsqo5mrb5752m7tm.apps.googleusercontent.com</param-value>
+  </context-param> 
+  
+  <context-param>
+    <param-name>CLIENT_SECRET</param-name>
+    <param-value>w11-jGqh5_1Us95BJcS94IGH</param-value>
+  </context-param>  
+  
+  <context-param>
+    <param-name>PERMISSIONS</param-name>
+    <param-value>https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile</param-value>
+  </context-param>   
+
+  <filter>
+    <filter-name>guiceFilter</filter-name>
+    <filter-class>com.google.inject.servlet.GuiceFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>guiceFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <listener>
+    <listener-class>br.com.wickrss.guice.AppInjector</listener-class>
+  </listener>  
+ 
+  <welcome-file-list>
+    <welcome-file>index</welcome-file>
+  </welcome-file-list>
+
 </web-app>

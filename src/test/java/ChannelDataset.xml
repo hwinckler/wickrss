@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  <user id="1" email="user1@user.com" date="2015-04-20 20:00:30.0" />
+  <category id="1" user_id="1" title="Default" date="2015-04-20 20:00:30.0" />
+  <category id="2" user_id="1" title="Outros" date="2015-04-20 20:00:30.0" />
+  <category id="3" user_id="1" title="Novo" date="2015-04-20 20:00:30.0" />
+  <channel />
+  <feed /> 
+</dataset>
