@@ -86,7 +86,11 @@ public class ServletController extends HttpServlet {
 	
 	protected String getCallbackURL(HttpServletRequest request) throws UnsupportedEncodingException{
 		
-        return URLEncoder.encode((request.getRequestURL().replace(request.getRequestURL().lastIndexOf("/"), request.getRequestURL().length(), "").append(OAUTH_CALLBACK)).toString(), "UTF-8");
+		String callback = URLEncoder.encode((request.getRequestURL().replace(request.getRequestURL().lastIndexOf("/"), request.getRequestURL().length(), "").append(OAUTH_CALLBACK)).toString(), "UTF-8");
+		
+		logger.debug("callback: " + callback);
+		
+        return callback;
 		
 	}
 }

@@ -141,6 +141,7 @@ public class FeedController extends ServletController {
 			User user = getUserLogged(request, response);
 			
 			Channel channel = rssFeed.parse(new ChannelStream().getStream(link), user);
+			channel.setLink(link);
 			channel.setCategory(new Category(categoryID));
 			channelBO.insert(channel, getUserLogged(request, response));
 			
