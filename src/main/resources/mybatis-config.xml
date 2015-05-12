@@ -8,8 +8,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 			<transactionManager type="JDBC" />
             <!--  connecting to Cloud SQL -->
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.jdbc.GoogleDriver"/>
-                <property name="url" value="jdbc:google:mysql://driven-striker-89000:mybatis-instance/db1?user=root"/>
+				<property name="driver" value="com.mysql.jdbc.Driver"/>
             </dataSource>
 		</environment>	
 		<environment id="development">

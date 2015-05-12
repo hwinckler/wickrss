@@ -107,11 +107,9 @@ public class Oauth2Callback extends ServletController {
 		            	
 		            	request.getSession().setAttribute("user", user);
 		            	
+		            	logger.debug("redirect...");
+		            	
 		            	response.sendRedirect("index");
-		            	
-		            	//forward("/index", request, response);
-		            	
-		            	//getServletContext().getRequestDispatcher("/").forward(request,response);
 		            	
 			            return;
 		            }
@@ -128,8 +126,7 @@ public class Oauth2Callback extends ServletController {
 			
 		}
 		
-		//redirect("signin.jsp", response);
-		forward("/index", request, response);
+		response.sendRedirect("index");
 		
 	}
 

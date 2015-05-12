@@ -4,7 +4,7 @@
 <html lang="pt_BR">
 <head>
   <meta charset="utf-8">
-  <title>RSSFeed-Leitor</title>
+  <title>WickRSS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -39,7 +39,7 @@ location.href = "index";
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">FeedReader</a>
+          <a class="navbar-brand" href="index">WickRSS</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -51,8 +51,8 @@ location.href = "index";
     </nav>
   
       <div class="jumbotron">
-        <h1>RSSFeed-Leitor</h1>
-        <p class="lead">Simples leitor Web e Mobile de feed RSS... blá blá blá...</p>
+        <h1>WickRSS</h1>
+        <p class="lead">WickRSS é um simples leitor Web e Mobile de feed RSS... blá blá blá...</p>
         <p><a href="login?act=login"><img alt="sign-in" src="img/Red-signin_Long_base_20dp.png"></a></p>
       </div>  
       

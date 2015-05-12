@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>RSSFeed-Leitor</title>
+  <title>WickRSS</title>
   <!-- Bootstrap -->
   <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="../css/normalize.css" rel="stylesheet" media="screen">
@@ -26,7 +26,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">FeedReader</a>
+          <a class="navbar-brand" href="index">WickRSS</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -43,7 +43,7 @@
     </ol>
 
     <div class="jumbotron">
-      <h1>RSSFeed Leitor v.1</h1>
+      <h1>WickRSS v. 1.0</h1>
       <p class="lead">Projeto de estudo para as tecnologias:</p>
       <div>
       	<ul>
@@ -56,6 +56,7 @@
       		<li>Google+ Sign-In.</li>
       		<li>Git - Version control system.</li>
       		<li>Github - Online project hosting using Git.</li>
+      		<li>Amazon AWS - Amazon WebServices.</li>
       	</ul>
       </div>
       
