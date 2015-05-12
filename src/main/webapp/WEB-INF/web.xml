@@ -9,7 +9,7 @@
   
   <context-param>
     <param-name>CLIENT_SECRET</param-name>
-    <param-value>w11-jGqh5_1Us95BJcS94IGH</param-value>
+    <param-value></param-value>
   </context-param>  
   
   <context-param>
