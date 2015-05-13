@@ -34,7 +34,7 @@ public class CategoryTest extends DBUnitLoad {
 	
 	static User user;
 	
-	final static String dataSet = "/CategoryDataset.xml";
+	final static String dataSet = "src/test/resources/CategoryDataset.xml";
 	
 	@BeforeClass
 	public static void init() throws Exception {

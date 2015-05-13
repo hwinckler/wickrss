@@ -28,7 +28,7 @@ public class DBUnitLoad{
 				
 		DatabaseConnection databaseConnection = new DatabaseConnection(session.getConnection());
 				
-		idataSet = new FlatXmlDataSetBuilder().build(new FileInputStream(DBUnitLoad.class.getResource(dataSet).getFile()));
+		idataSet = new FlatXmlDataSetBuilder().build(new FileInputStream(dataSet));
 
         DatabaseOperation.INSERT.execute(databaseConnection, idataSet);
         

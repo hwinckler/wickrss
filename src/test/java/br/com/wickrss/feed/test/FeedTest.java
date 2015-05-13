@@ -36,7 +36,7 @@ public class FeedTest  extends DBUnitLoad{
 	
 	static User user;
 	
-	final static String dataSet = "/FeedDataset.xml";
+	final static String dataSet = "src/test/resources/FeedDataset.xml";
 	
 	@BeforeClass
 	public static void init() throws Exception {

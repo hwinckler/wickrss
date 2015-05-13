@@ -32,7 +32,7 @@ public class UserTest extends DBUnitLoad {
 	@Inject
 	static CategoryBO categoryBO;
 	
-	final static String dataSet = "/UserDataset.xml";
+	final static String dataSet = "src/test/resources/UserDataset.xml";
 	
 	@BeforeClass
 	public static void init() throws Exception {

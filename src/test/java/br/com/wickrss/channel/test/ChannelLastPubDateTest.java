@@ -41,7 +41,7 @@ public class ChannelLastPubDateTest extends DBUnitLoad{
 	
 	static User user;
 		
-	final static String dataSet = "/ChannelLastPubDateDataset.xml";
+	final static String dataSet = "src/test/resources/ChannelLastPubDateDataset.xml";
 	
 	@BeforeClass
 	public static void init() throws Exception {

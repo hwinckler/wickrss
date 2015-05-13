@@ -43,7 +43,7 @@ public class ChannelTest extends DBUnitLoad{
 	
 	static User user;
 		
-	final static String dataSet = "/ChannelDataset.xml";
+	final static String dataSet = "src/test/resources/ChannelDataset.xml";
 	
 	@BeforeClass
 	public static void init() throws Exception {

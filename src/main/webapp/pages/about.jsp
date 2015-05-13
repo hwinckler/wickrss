@@ -45,7 +45,7 @@
       <p class="lead">Colabore com o projeto em:</p>
       <div>
       	<ul>
-      		<li><a href="https://github.com/hwinckler/rssfeed-leitor.git" target="_blank">https://github.com/hwinckler/rssfeed-leitor.git</a></li>
+      		<li><a href="https://github.com/hwinckler/wickrss.git" target="_blank">https://github.com/hwinckler/wickrss.git</a></li>
       	</ul>
       </div>
     </div>

@@ -4,7 +4,7 @@
 
   <context-param>
     <param-name>CLIENT_ID</param-name>
-    <param-value>597828153578-o7c3r47bek2mb5aktsqo5mrb5752m7tm.apps.googleusercontent.com</param-value>
+    <param-value></param-value>
   </context-param> 
   
   <context-param>

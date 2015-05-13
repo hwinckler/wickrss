@@ -50,7 +50,7 @@ public class RSSFeedParserTest extends DBUnitLoad {
 	
 	static User user;
 	
-	final static String dataSet = "/RSSFeedParserDataset.xml";
+	final static String dataSet = "src/test/resources/RSSFeedParserDataset.xml";
 	
 	@BeforeClass
 	public static void init() throws Exception {
